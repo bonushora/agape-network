@@ -2,7 +2,7 @@
 
 - **Status:** Aprovação parcial do registro; proposta sob revisão institucional e votação elegível
 - **Data:** 11 de setembro de 2026
-- **Escopo:** Integridade, precedência, hashes e estado das ADRs-001 a 013
+- **Escopo:** Integridade, precedência, hashes e estado das ADRs-001 a 014
 - **Autoridade:** Registro de controle; não é autoridade eclesiástica, espiritual ou técnica adicional
 - **Efeito:** Nenhuma implementação, integração, emissão, admissão ou operação de produção é autorizada por este manifesto
 
@@ -67,6 +67,7 @@ Os hashes abaixo são SHA-256 dos bytes revisados no ambiente desta inspeção. 
 | ADR-011 | `ADR-011-interoperabilidade-integracoes-portabilidade-e-independencia-entre-projetos.md` | Aprovada e congelada | `d230305a1c5873124664cac9ea13eac81209e0d1118afee68cec15f809482401` |
 | ADR-012 | `agape-network-adr-012-proposal(2)(2)(1) (1).md` | Aprovada e congelada | `50922f785b89e0eec46fe8a472300fc97fa5130169d8a61779bf0b1b94c8a851` |
 | ADR-013 | `ADR-013-arquitetura-tecnica-dashboards-e-interoperabilidade-com-bh-smc.md` | Aprovada e congelada | `1a322a871cad43c3da2a337565fab27f894c35d685eaa83ce416e50162df9041` |
+| ADR-014 | `docs/adr/ADR-014-consolidacao-operacional-journal-votacao-ia-e-prontidao.md` | Aprovada e congelada | `74e969cab53c9e284e393994169d9252c26ae9291fae480839a0fa3c3a50a686` |
 
 As ADRs-001 a 011 foram verificadas no pacote extraído do projeto. ADR-012 e ADR-013 foram verificadas nos artefatos fornecidos para esta revisão. A identidade do remoto Git não foi conferida neste ambiente.
 
@@ -119,3 +120,13 @@ As ADRs-001 a 011 foram verificadas no pacote extraído do projeto. ADR-012 e AD
 ## 7. Regra de revalidação
 
 O manifesto deverá ser refeito quando mudar qualquer ADR, arquivo, hash, ambiente, autoridade, pacote do BH-SMC ou estado de execução. Nenhum resumo verbal poderá substituir a conferência dos bytes e dos hashes.
+
+## 8. Registro da ADR-014
+
+- **Estado:** Aprovada e congelada por decisão humana.
+- **SHA-256 do conteúdo congelado:** `74e969cab53c9e284e393994169d9252c26ae9291fae480839a0fa3c3a50a686`
+- **Remoto declarado:** `git@github.com:bonushora/agape-network.git`
+- **Branch:** `main`
+- **SHA antes da publicação:** `afd9ce9f6c4fde6929c7b78273c6459fd1a5fe1b`
+- **SHA depois da publicação:** verificado pelo pós-teste do runner.
+- **Escopo:** alteração documental; sem runtime, dados reais, integração ou produção.
